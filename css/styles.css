@@ -6,6 +6,9 @@
     --main-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
     --font-family: "DM Sans", sans-serif;
 }
+body{
+    background-color: var(--black);
+}
 h1{
     font-family: var(--font-family);
         font-weight: 500;
@@ -52,6 +55,16 @@ p{
         line-height: 129%;
         letter-spacing: -0.02em;
         color: var(--white);
+}
+.container{
+    width: 80%;
+    max-width: 320px;
+}
+@media (min-width:375px){
+.container {
+        width: 80%;
+        max-width: 375px;   
+    }
 }
 @media (min-width:768px){
 
@@ -106,6 +119,15 @@ p{
             letter-spacing: -0.02em;
             color: var(--white);
         }
-    
+        .container {
+                width: 80%;
+                max-width: 768px;  
+        }
         /* !!!! Navbar,hero, sign up ver footer kısmlarınmda bazı yerlerde daha küçük p'ler var dikkat edin */
+}
+@media (min-width:1280px){
+    .container {
+        width: 80%;
+        max-width: 1280px;
+    }
 }
