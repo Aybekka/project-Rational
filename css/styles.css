@@ -45,6 +45,14 @@ h5{
         line-height: 120%;
         color: var(--white);
 }
+p{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: var(--white);
+}
 @media (min-width:768px){
 
     h1 {
