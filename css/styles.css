@@ -1,0 +1,103 @@
+:root {
+    --black: #121212;
+    --dark-grey:#1d1d1d;
+    --white: #fff;
+    --brown: #bea69e;
+    --main-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+    --font-family: "DM Sans", sans-serif;
+}
+h1{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.04em;
+        color: var(--white);
+}
+h2{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: var(--brown);
+}
+h3{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 114%;
+        letter-spacing: -0.04em;
+        color: var(--white);
+}
+h4{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        color: var(--white);
+}
+h5{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        color: var(--white);
+}
+@media (min-width:768px){
+
+    h1 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 106%;
+            letter-spacing: -0.04em;
+            color: var(--white);
+        }
+    
+        h2 {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 59px;
+            line-height: 108%;
+            letter-spacing: -0.02em;
+            color: var(--white);
+        }
+    
+        h3 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 112%;
+            letter-spacing: -0.04em;
+            color: var(--white);
+        }
+    
+        h4 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 114%;
+            color: var(--white);
+        }
+    
+        h5 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            color: var(--white);
+        }
+    
+        p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: -0.02em;
+            color: var(--white);
+        }
+    
+        /* !!!! Navbar,hero, sign up ver footer kısmlarınmda bazı yerlerde daha küçük p'ler var dikkat edin */
+}
